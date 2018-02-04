@@ -251,14 +251,14 @@
       "metadata": {
         "description": "Linked Templates base url"
       },
-      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/nested"
+      "defaultValue": "https://github.com/azureadmino-systemscom/AzureResourceGroup1/tree/master/AzureResourceGroup1/nested"
     },
     "scriptsBaseUrl": {
       "type": "string",
       "metadata": {
         "description": "DSC Scripts base url"
       },
-      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/scripts"
+      "defaultValue": "https://github.com/azureadmino-systemscom/AzureResourceGroup1/tree/master/AzureResourceGroup1/scripts"
     },
     "autoPatchingDay": {
       "type": "string",
@@ -403,7 +403,7 @@
       "sqlwVMName": "cluster-fsw",
       "windowsImagePublisher": "MicrosoftWindowsServer",
       "windowsImageOffer": "WindowsServer",
-      "windowsImageSKU": "2012-R2-Datacenter",
+      "windowsImageSKU": "2016-Datacenter",
       "sqlImagePublisher": "MicrosoftSQLServer",
       "sqlImageOffer": "[parameters('sqlServerVersion')]",
       "rdpPort": 3389,
